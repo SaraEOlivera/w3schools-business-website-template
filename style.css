@@ -22,7 +22,7 @@ body {
 }
 
 nav {
-    background-color: yellow;
+    background-color:var(--fondo-claro);
     height: 10%;
     padding: 15px;
     display: flex;
@@ -97,10 +97,55 @@ header .boton-header:hover{
 .icon-bar i {
     opacity: 0.7;
     padding: 2px;
+    cursor: pointer;
 }
 
 .icon-bar i:hover{
     opacity: 1;
+}
+
+.about {
+    height: 600px;
+    padding: 50px;
+}
+
+.titulo-centro {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 1.6rem;
+}
+
+.subtitulo-centro{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 1.2rem;
+}   
+
+.features-container {
+    padding-top: 3rem;
+    display: flex;
+}
+
+.feature {
+    width: 25%;
+    max-width: 25%;
+    padding-top: 5px;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+}
+
+.feature i{
+    font-size: 4rem;
+}
+
+.titulo-feature {
+    font-size: 1.2rem;
+}
+
+.texto-feature{
+    font-size: 15px;
 }
 
 
