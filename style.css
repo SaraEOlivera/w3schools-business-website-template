@@ -1,6 +1,7 @@
+/* Estilo general */
 :root {
     --fondo-claro: #fffcfc;
-    --fondo-medio:#ccc;
+    --fondo-medio:#f1f1f1;
     --fondo-oscuro: #000;
     --color-negro: #1c1c1c;
 }
@@ -20,6 +21,13 @@ body {
     width: 1200px;
     margin: auto;
 }
+
+section {
+    height: 600px;
+    padding: 50px;
+}
+
+/* Especificos */
 
 nav {
     background-color:var(--fondo-claro);
@@ -104,11 +112,6 @@ header .boton-header:hover{
     opacity: 1;
 }
 
-.about {
-    height: 600px;
-    padding: 50px;
-}
-
 .titulo-centro {
     text-transform: uppercase;
     text-align: center;
@@ -146,7 +149,63 @@ header .boton-header:hover{
 
 .texto-feature{
     font-size: 15px;
+    line-height: 1.5rem;
+
 }
+
+/* Seccion Design */
+
+.design {
+    background-color: var(--fondo-medio);
+    padding-left: 20px;
+}
+
+.container-design {
+    display: flex;
+    padding-top: 90px;
+}
+
+.left {
+    width: 40%;
+    padding-right: 7rem;
+}
+
+.titulo-design {
+    font-size: 1.4rem;
+    padding-bottom:1.6rem;
+}
+
+.texto-design {
+    line-height: 1.7rem;
+    font-size: 1rem;
+    padding-bottom: 15px;
+}
+
+.link-design {
+    text-decoration: none;
+    padding: 12px;
+    background-color: var(--color-negro);
+    color: var(--fondo-claro);
+    text-transform: capitalize;
+    transition: ease 0.1s;
+}
+
+.link-design:hover {
+    background-color: #b3b3b3;
+    color: var(--color-negro);
+}
+
+.right {
+    width: 60%;
+}
+
+.right img {
+    border-radius: 10px;
+}
+
+/* Seccion Team */
+
+
 
 
 
