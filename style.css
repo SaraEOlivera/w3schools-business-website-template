@@ -1,0 +1,56 @@
+:root {
+    --fondo-claro: #fffcfc;
+    --fondo-medio:#ccc;
+    --fondo-oscuro: #000;
+    --color-negro: #1c1c1c;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    width: 1200px;
+    margin: auto;
+}
+
+nav {
+    background-color: yellow;
+    height: 10%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.logo h3{
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+div.navbar ul{
+    display: flex;
+}
+
+div.navbar a{
+    text-decoration: none;
+    color: var(--color-negro);
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+div.navbar li {
+    list-style-type: none;
+}
+
+
+
+
