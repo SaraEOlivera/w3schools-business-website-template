@@ -51,6 +51,58 @@ div.navbar li {
     list-style-type: none;
 }
 
+header {
+    height: 500px;
+    background: url(images/header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 35px;
+}
+
+header h1 {
+    color: var(--fondo-claro);
+    font-size: 4rem;
+    padding-bottom: 30px;
+}
+
+header p {
+    color: var(--fondo-claro);
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+header .boton-header {
+    text-decoration: none;
+    border: 1px solid var(--fondo-medio);
+    background-color: var(--fondo-medio);
+    color: var(--color-negro);
+    padding: 12px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+header .boton-header:hover{
+    opacity: 1;
+}
+
+.icon-bar {
+    padding-top:150px;
+    color: var(--fondo-medio);
+    opacity: 0.7;
+}
+
+.icon-bar i {
+    opacity: 0.7;
+    padding: 2px;
+}
+
+.icon-bar i:hover{
+    opacity: 1;
+}
+
 
 
 
