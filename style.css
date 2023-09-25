@@ -23,7 +23,7 @@ body {
 }
 
 section {
-    height: 600px;
+    height: 650px;
     padding: 50px;
 }
 
@@ -205,6 +205,72 @@ header .boton-header:hover{
 
 /* Seccion Team */
 
+section .section-team {
+    padding-top: 40px;
+    margin-top: 30px;
+}
+
+.team-container{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    max-width: 1200px;
+    padding: 20px 15px;
+    margin: 0 auto;
+}
+
+.team {
+    box-sizing: border-box;
+    flex: 0 0 25%;
+    margin: 20px 7px 40px 10px;
+    border: 1px solid var(--fondo-medio);
+    border-radius: 10px;
+    height: 450px;
+    box-shadow: 5px 5px 5px #cdcbcb;
+}
+
+.img-team{
+    max-width: 100%;
+    filter: grayscale(75%);
+}
+
+.team .name {
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.team .position {
+    padding-left: 10px;
+    color: #bdb4b4;
+}
+
+.team .description {
+    padding-left: 10px;
+    line-height: 30px;
+    letter-spacing:1px;
+    font-size: 14px;
+}
+
+.link-container-team{
+    width: 90%;
+    background-color: var(--fondo-medio);
+    height: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.link-container-team:hover {
+    background-color: #cdcbcb;
+}
+
+.link-team{
+    text-decoration: none;
+    color: var(--color-negro);
+    padding: 10px;
+}
 
 
 
