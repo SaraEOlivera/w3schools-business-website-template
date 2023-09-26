@@ -278,6 +278,7 @@ section .section-team {
 .section-numbers {
     margin-top: 150px;
     width: 100%;
+    height: 300px;
 }
 
 .container-numbers {
@@ -309,6 +310,28 @@ section .section-team {
     font-size: 1rem;
 }
 
+/* Seccion Work */
+
+
+.container-work {
+    padding-top:40px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.grupo {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-work {
+    padding: 5px;
+}
+
+.img-work:hover{
+    opacity: 0.5;
+}
 
 
 
