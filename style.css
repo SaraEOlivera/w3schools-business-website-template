@@ -24,7 +24,6 @@ body {
 
 section {
     height: 650px;
-    /* padding: 50px; */
 }
 
 /* Especificos */
@@ -311,8 +310,6 @@ section .section-team {
 }
 
 /* Seccion Work */
-
-
 .container-work {
     padding-top:40px;
     width: 1200px;
@@ -396,6 +393,58 @@ section .section-team {
 .btn-close:hover {
     cursor: pointer;
     color: #696565;
+}
+
+/* Section skills */
+
+.section-skills{
+    margin-top: 100px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 80px 25px;
+    background-color: var(--fondo-medio);
+}
+
+.skills-left {
+    width: 40%;
+    padding-right: 30px;
+}
+
+.skills-left h3, .skills-left p {
+    text-align: left;
+}
+
+.skills-right{
+    width: 60%;
+    padding-left: 30px;
+}
+
+.barra-titulo {
+    display: flex;
+    margin: 5px;
+}
+
+.barra-titulo i {
+    margin: 10px;
+    padding-right: 10px;
+}
+
+.barra-titulo p {
+    margin: 10px;
+    letter-spacing: 3px;
+}
+.progress {
+    height: 30px;
+    border-radius: 0;
+    background-color:#938f8f;
+    font-size: 1rem;
+
+}
+
+.progress-bar {
+    background-color:#696565;
 }
 
 
