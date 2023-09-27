@@ -229,19 +229,28 @@
         <p class="subtitulo-centro">What we've done for people</p>
         <div class="container-work">
             <div class="grupo primer-grupo">
-                <img class="img-work" src="images/tech/tech_mic.jpg" alt="Imagen de microfono">
-                <img class="img-work" src="images/tech/tech_phone.jpg" alt="Imagen de telefono">
-                <img class="img-work" src="images/tech/tech_drone.jpg" alt="Imagen de drone">
-                <img class="img-work" src="images/tech/tech_sound.jpg" alt="Imagen de sonido">
+                <img onclick="onClick(this)" class="img-work" src="images/tech/tech_mic.jpg" alt="A microphone">
+                <img onclick="onClick(this)" class="img-work" src="images/tech/tech_phone.jpg" alt="A phone">
+                <img onclick="onClick(this)" class="img-work" src="images/tech/tech_drone.jpg" alt="A drone">
+                <img onclick="onClick(this)" class="img-work" src="images/tech/tech_sound.jpg" alt="A soundbox">
             </div>
             <div class="grupo segundo-grupo">
-                <img class="img-work" src="images/tech/tech_tablet.jpg" alt="Imagen de tablet">
-                <img class="img-work" src="images/tech/tech_camera.jpg" alt="Imagen de camara">
-                <img class="img-work" src="images/tech/tech_typewriter.jpg" alt="Imagen de maquina">
-                <img class="img-work" src="images/tech/tech_tableturner.jpg" alt="Imagen de cable">
+                <img onclick="onClick(this)" class="img-work" src="images/tech/tech_tablet.jpg" alt="A tablet">
+                <img onclick="onClick(this)" class="img-work" src="images/tech/tech_camera.jpg" alt="A camera">
+                <img onclick="onClick(this)" class="img-work" src="images/tech/tech_typewriter.jpg" alt="A typewriter">
+                <img onclick="onClick(this)" class="img-work" src="images/tech/tech_tableturner.jpg" alt="A tableturner">
             </div>
         </div>
-        
+
+        <!-- Modal -->
+        <div id="modal" class="modal" onclick="this.style.display='none'">
+            <span class="btn-close" title="Close" >x</span>
+            <div>
+                <img id="imageZoom" class="image-zoom">
+                <p id="imgText" class="img-text"></p>
+            </div>
+        </div>
+
     </section>
 
 
