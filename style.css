@@ -536,6 +536,70 @@ span.negrita {
     color: #1c1c1c;
 }
 
+/* Seccion Contacto */
+.section-contact{
+    background-color: var(--fondo-medio);
+    height: auto;
+}
+
+.contact-icons {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 25px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.icon i {
+    font-size:1.9rem;
+    padding-right: 20px;
+}
+
+/* Formulario */
+form{
+    padding: 5px 0 50px 0;
+}
+
+.input {
+    display: block;
+    width: 95%;
+    margin: 20px;
+    padding: 9px;
+    border: 1px solid var(--fondo-medio);
+}
+.textarea {
+    margin-bottom: 30px;
+}
+
+.btn-contacto {
+    text-decoration: none;
+    padding: 12px;
+    background-color: var(--fondo-oscuro);
+    color: var(--fondo-claro);
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.btn-contacto:hover {
+    background-color: #c0bcbc;
+    color: var(--fondo-oscuro);
+}
+
+.contact-img {
+    padding: 60px 0;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
 
 
 
