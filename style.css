@@ -35,6 +35,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    width: 90%;
 }
 
 div.logo h3{
@@ -45,6 +47,10 @@ div.logo h3{
 
 div.navbar ul{
     display: flex;
+}
+
+div.navbar ul li:hover {
+    background-color: var(--fondo-medio);
 }
 
 div.navbar a{
@@ -630,11 +636,36 @@ footer {
     color: var(--fondo-claro);
 }
 
-
 .txt-footer{
     color: var(--fondo-claro);
     padding-bottom: 20px;
+    text-decoration: none;
 }
+
+.flecha-arriba{
+    position: fixed;
+    bottom: 40px;
+    right: 70px;
+    border-radius: 100%;
+    border: 1px solid #1c1c1c;
+    background-color: #1c1c1c;
+    height: 45px;
+    width: 50px;
+    transform: translateY(100px);
+    transition: 0.3s;
+}   
+
+.flecha-arriba i {
+    color: var(--fondo-claro);
+    font-size: 1.4rem;
+}
+
+.flecha-arriba-activo {
+    transform: translateY(0);
+}
+
+
+/* Responsive Area */
 
 
 
