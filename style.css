@@ -575,7 +575,7 @@ form{
     margin-bottom: 30px;
 }
 
-.btn-contacto {
+.btn-contacto{
     text-decoration: none;
     padding: 12px;
     background-color: var(--fondo-oscuro);
@@ -593,10 +593,50 @@ form{
 }
 
 .contact-img {
-    padding: 60px 0;
+    padding: 60px 0 100px 0;
     max-width: 100%;
     height: auto;
 }
+
+footer {
+    background-color: var(--color-negro);
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.btn-footer {
+    text-decoration: none;
+    background-color:  var(--fondo-claro);
+    color: #1c1c1c;
+    padding: 8px 10px;
+    margin: 30px 0 0 0;
+}
+
+.btn-footer:hover {
+    background-color: #bdb4b4;
+}
+
+.btn-footer i {
+    font-size: 1.5rem;
+}
+
+.icon-footer{
+    padding: 30px 0;
+    color: var(--fondo-claro);
+}
+
+
+.txt-footer{
+    color: var(--fondo-claro);
+    padding-bottom: 20px;
+}
+
+
 
 
 
