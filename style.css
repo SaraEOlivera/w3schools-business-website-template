@@ -329,6 +329,8 @@ section .section-team {
 }
 
 .img-work {
+    max-width: 100%;
+    height: auto;
     padding: 5px;
 }
 
@@ -666,8 +668,96 @@ footer {
 
 
 /* Responsive Area */
+@media all and (min-width:993px) and (max-width: 1200px) {
 
+    /* html {
+        width: 990px;
+    } */
 
+    body {
+        width: 990px;
+    }
+
+    section {
+        height: 650px;
+    }
+
+    nav {
+        position: fixed;
+        padding: 10px;
+        width: 100%;
+    }
+
+    /* Seccion Design */
+    .right img {
+        width: 90%;
+    }
+
+    /* Seccion Team */
+    .img-team {
+        padding: 1px;
+    }
+    /* Section numbers */
+
+    .section-numbers {
+        width: 90%;
+    }
+
+    .container-numbers {
+        width: 990px;
+    }
+
+    /* Seccion Work */
+
+    section .work {
+        width: 90%;
+    }
+
+    .container-work {
+        width: 950px;
+    }
+
+    .grupo {
+        width: 90%;
+    }
+
+    .img-work {
+        width: 290px;
+        height: 170px;
+    }
+
+    /* Section skills */
+
+    .section-skills{
+        width: 100%;
+    }
+
+    .skills-left {
+        padding-right: 15px;
+    }
+
+    .skills-right{
+        padding-left: 20px;
+    }
+
+    /* seccion pricing */
+
+    /* Seccion Contacto */
+
+    /* Formulario */
+
+    footer {
+        width: 100%;
+    }
+}
+
+/* @media all and (min-width:601px) and (max-width: 992px) {
+    
+}
+
+@media all and (min-width:320px) and (max-width: 600px) {
+    
+} */
 
 
 
